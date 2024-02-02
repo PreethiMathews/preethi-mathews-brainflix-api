@@ -2,7 +2,7 @@
 require("dotenv").config();
 const express = require("express");
 const app = express();
-const notesRoutes = require("./routes/notesRoutes.js");
+const videoRoutes = require("./routes/videoRoutes.js");
 const cors = require("cors");
 
 const PORT = process.env.PORT || 8081;
@@ -12,7 +12,7 @@ app.use(cors());
 //This is middleware that allows use to send JSON requests
 app.use(express.json());
 
-app.use("/notes", notesRoutes);
+app.use("/videos", videoRoutes);
 
 app.listen(PORT, () => {
   console.log(`listening on PORT ${PORT}`);
