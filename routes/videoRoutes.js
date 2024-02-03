@@ -39,7 +39,6 @@ router.post("/", (req, res) => {
     desciption: req.body.description,
     image: req.body.image,
     timestamp: Date.now(),
-    git,
   };
 
   const videosData = readvideos();
