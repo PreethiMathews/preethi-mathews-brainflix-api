@@ -36,7 +36,10 @@ router.post("/", (req, res) => {
     id: uuidv4(),
     title: req.body.title,
     channel: req.body.channel,
-    image: "https://project-2-api.herokuapp.com/images/image0.jpg",
+    desciption: req.body.description,
+    image: req.body.image,
+    timestamp: Date.now(),
+    git,
   };
 
   const videosData = readvideos();

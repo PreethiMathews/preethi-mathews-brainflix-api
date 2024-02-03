@@ -281,7 +281,5 @@
       },
       { "id": "191de346-b3c2-47b4-bf5b-6db90d1e3bdc", "name": "Emily Harper", "comment": "Let’s collaborate on a video for saving money on cheap train tickets! I’ll have my associates contact yours.", "likes": 0, "timestamp": 1632496261000 }
     ]
-  },
-  { "id": "6ef43536-cd87-42cd-92f3-231940eb5dfb", "title": "New Video", "channel": "Red Cow", "image": "https://project-2-api.herokuapp.com/images/image0.jpg" },
-  { "id": "3b222c1b-da63-4fd9-9bb9-915c8b2cddae", "title": "BMX Rampage: 2021 Highlights", "channel": "Red FOX", "image": "https://project-2-api.herokuapp.com/images/image0.jpg" }
+  }
 ]
