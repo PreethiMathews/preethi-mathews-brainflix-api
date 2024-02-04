@@ -12,6 +12,8 @@ app.use(cors());
 //This is middleware that allows use to send JSON requests
 app.use(express.json());
 
+app.use(express.static("public"));
+
 app.use("/videos", videoRoutes);
 
 app.listen(PORT, () => {
